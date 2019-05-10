@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 90%;
+  max-width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header {
+  margin: 2rem 0 1rem;
+}
+
+input {
+  width: 22rem;
+  padding: 0.8em 1em;
+  border: 1px solid #8c8f99;
+  border-radius: 0.5em;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img {
+  flex: 1;
+  margin: 1rem;
+}
+
+footer p {
+  color: #d9dddc;
+}
+
+@media (min-width: 576px) {
+  .img {
+    margin-top: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  input {
+    width: 30rem;
+  }
+}
