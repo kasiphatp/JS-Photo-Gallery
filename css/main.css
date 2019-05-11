@@ -84,4 +84,8 @@ footer p {
   input {
     width: 30rem;
   }
+
+  .lightboxOverlay {
+    max-width: 100%;
+  }
 }
