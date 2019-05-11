@@ -5,7 +5,7 @@ lightbox.option({
   'showImageNumberLabel': false,
   'maxWidth': 889,
   'positionFromTop': 80
-})
+});
 
 // Search
 $('#search').on('keyup', function() {
@@ -18,5 +18,5 @@ $('#search').on('keyup', function() {
     } else {
       $(this).parent().fadeOut();
     }
-  })
+  });
 });
